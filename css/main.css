@@ -1,19 +1,47 @@
 
 /*GENERAL [0]*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
 li{
 	display: inline-block;
 	font-size: 12px;
 }
-
+a{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+}
 #sideBar,
 #blog{
 	height:400px;
+}#sideBar{
+	background-image: url("file:///C:/Users/maribel/Desktop/codify/projects/blogtheme/img/pinkflowers.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-color:#DADFDD; 
 }
-
+#sideBar ul{
+	background-color: rgba(255, 255, 255, 0.3);
+	color:#fff;
+}
+#blog{
+	background-color:#ECCED1;
+}
+#blog h6, h6{
+	font-family: 'Petit Formal Script', cursive;
+	text-align: center;
+}
+#blog p{
+	font-size: 14px;
+	text-indent: 10px;
+}
 #sideBar li{
 	display: block;
 }
-
 footer{
+	padding-top: 5%;
 	font-size: 12px;
 }
