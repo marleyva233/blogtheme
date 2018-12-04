@@ -1,0 +1,19 @@
+
+/*GENERAL [0]*/
+li{
+	display: inline-block;
+	font-size: 12px;
+}
+
+#sideBar,
+#blog{
+	height:400px;
+}
+
+#sideBar li{
+	display: block;
+}
+
+footer{
+	font-size: 12px;
+}

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<!-- meta tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>Welcome to my blog!</title>
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
@@ -13,7 +13,91 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		
+		<!-- starting header (unique main header) -->
+		<header>
+			<!-- starting the navigation -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				 </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Link</a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#">Disabled</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+				  </div>
+</nav>
+			
+			<!-- ending the navigation -->
+
+			<!-- starting carousel code -->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<img src="img/blog.jpg" alt="computer on desk" class="w-100">
+					</div>
+				</div>
+			</div>
+			<!-- ending carousel code -->
+		</header>
+		<!-- ending header -->
+
+		<!-- starting main section -->
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- starting sidebar -->
+					<div class="col-3 bg-light" id="sideBar">
+						date
+						<ul>
+							<li>pinned</li>
+							<li>pinned</li>
+							<li>pinned</li>
+							<li>pinned</li>
+							<li>pinned</li>
+						</ul>
+					</div>
+					<!-- starting blog section -->
+					<div class="col-9 bg-dark" id="blog">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- starting footer -->
+		<footer class="text-center">
+			<!-- footer links go here -->
+			<ul>
+				<li>About Us</li>
+				<li>Contact Us</li>
+				<li>&copy; 2018</li>
+			</ul>
+		</footer>
+		<!-- ending footer -->
+
 		<!--jquery -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- popper is required for bootstrap 4 js functionality -->
