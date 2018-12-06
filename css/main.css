@@ -18,7 +18,7 @@ a:hover{
 #blog{
 	height:400px;
 }#sideBar{
-	background-image: url("file:///C:/Users/maribel/Desktop/codify/projects/blogtheme/img/pinkflowers.jpg");
+	background-image: url("https://raw.githubusercontent.com/marleyva233/blogtheme/master/img/pinkflowers.jpg");
 	background-size: cover;
 	background-position: top right;
 	background-color:#DADFDD; 
