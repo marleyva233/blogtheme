@@ -14,6 +14,12 @@ a{
 a:hover{
 	color: #fff;
 }
+li>a{
+	color: #000;
+}
+li>a:hover{
+	color: #000;
+}
 #sideBar,
 #blog{
 	height:400px;
@@ -24,13 +30,14 @@ a:hover{
 	background-color:#DADFDD; 
 }
 #sideBar ul{
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.5);
 	color:#fff;
 }
 #blog{
 	background-color:#ECCED1;
 }
 #blog h6, h6{
+	font-weight: bold;
 	font-family: 'Petit Formal Script', cursive;
 	text-align: center;
 }
